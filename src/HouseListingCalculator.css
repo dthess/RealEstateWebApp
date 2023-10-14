@@ -1,0 +1,131 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    color: rgb(255, 255, 255);
+}
+
+.item {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    outline: rgba(0, 0, 0, 0.333) 5px outset;
+}
+
+.subgrid-header{
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.subgrid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.element{
+    background-color: rgba(0, 0, 0, 0.25);
+    margin: 2.5px;
+    padding: 2.5px;
+}
+.output{
+    color: white;
+    float: right;
+    width: 100px;
+    text-align: center;
+    /* outline: black solid 1px; */
+    /* margin: 2.5px; */
+}
+.input-label{
+    margin: 2.5px;
+    padding: 2px;    
+    background-color: rgba(0, 0, 0, 0.25);
+}
+.label-span{
+    /* margin: 5px; */
+}
+.input-box{
+    width: 100px;
+    background-color: rgba(255, 255, 255, 0.125);
+    float: right;
+    color: rgb(151, 152, 255);
+    text-align: center;
+    border: none;
+    margin: 2.5px;
+    padding: 2px;  
+}
+
+.subgrid-column-header{
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+
+.anim_gradient {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(180deg, hsla(280, 84%, 41%, 1) 0%, hsla(218, 97%, 56%, 1) 100%);
+    background-size : "400% 400%";
+    animation : "gradient 25s ease infinite";
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+    background-position: 100% 50%;
+    }
+    100% {
+    background-position: 0% 50%;
+    }
+};
+
+
+
+.blue_BG{
+    background-color: blue;
+}
+
+.red_BG{
+    background-color: red;
+}
+
+.calculate_btn{
+    margin-top: 25px;
+    border: outset 5px rgba(0, 0, 0, 0.333);
+    color: white;
+    padding: 15px 45px;
+    text-align: center;
+    text-decoration: none;
+    /* display: inline-block; */
+    font-size: 24px;
+    border-radius: 10px;
+}
+.calculate_btn{
+    background-color: purple;
+}
+  
+.calculate_btn:hover{
+    background-color:rgb(102, 0, 128);
+}
+  
+.calculate_btn:focus{
+    background-color:darkslateblue;
+}
+  
+.calculate_btn:active {
+    color: rgb(124, 124, 124);
+    border: inset 5px rgba(0, 0, 0, 0.333);
+}
+
+.navbar {
+    color: white;
+    background-color: #333;
+    
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+  }
