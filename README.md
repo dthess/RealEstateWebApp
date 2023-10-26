@@ -14,8 +14,10 @@ It correctly bundles React in production mode and optimizes the build for the be
 Builds and deploys the app to `Github Pages`\
 Build version is stored in the `gh-pages` branch
 
-## Proposed Changes
-Create a home page\
-Use React-Router-Dom to make home page link to roi-calc page\
-Change color of "important" values\
-add a slider under "important" values like CAP rate and CoC return to visualize how good they are
+## TODO
+1. Change color of "important" values
+1. Add a slider under "important" values like CAP rate and CoC return to visualize how good they are
+2. Reorganize boxes
+1. Create a home page
+1. Use React-Router-Dom to make home page link to roi-calc page
+1. Organize amortization table better
