@@ -15,7 +15,7 @@ Builds and deploys the app to `Github Pages`\
 Build version is stored in the `gh-pages` branch
 
 ## Proposed Changes
-Create a home page
-Use React-Router-Dom to make home page link to roi-calc page
-Change color of "important" values
+Create a home page\
+Use React-Router-Dom to make home page link to roi-calc page\
+Change color of "important" values\
 add a slider under "important" values like CAP rate and CoC return to visualize how good they are
