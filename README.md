@@ -17,6 +17,7 @@ Build version is stored in the `gh-pages` branch
 ## TODO
 1. Add gauge to CoC return
 2. Center Amortization table
+3. Add a column for investment recouped
 1. Create a home page
 1. Use React-Router-Dom to make home page link to the dashboard
 2. Host the site on your own domain
